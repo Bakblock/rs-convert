@@ -1,0 +1,93 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Conteneur principal */
+.wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Logo et en-tête */
+header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 60px;
+    color: #0072ff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0072ff;
+    font-weight: 600;
+}
+
+/* Section convertisseur */
+.converter {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="number"] {
+    padding: 15px;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
